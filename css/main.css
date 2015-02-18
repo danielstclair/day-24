@@ -28,4 +28,17 @@ body {
     font-weight: 100;
     border: none; }
 
+#list-display {
+  padding: 0; }
+
+.todos {
+  list-style: none;
+  font-size: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #666;
+  width: 100%; }
+  .todos #todo-checked {
+    margin: 0 10px; }
+
 /*# sourceMappingURL=main.css.map */
