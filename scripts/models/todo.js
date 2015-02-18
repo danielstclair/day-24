@@ -4,6 +4,7 @@ var app = app || {};
 
 app.Todo = Backbone.Model.extend({
 	// Default attributes
+	urlRoot: 'http://tiny-pizza-server.herokuapp.com/collections/dstclairtodoapp',
 	defaults: {
 		title: '',
 		completed: false
